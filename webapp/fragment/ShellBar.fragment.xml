@@ -1,0 +1,15 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.f" xmlns:html="http://www.w3.org/1999/xhtml">
+	<VBox class="shell-bar">
+		<f:ShellBar title="Auto Metal Price Management" secondTitle="Hi, Mr. Zou" showMenuButton="true"
+			menuButtonPressed="onSideNavButtonPress">
+			<f:menu>
+				<Menu>
+					
+				</Menu>
+			</f:menu>
+			<f:profile>
+				<f:Avatar initials="Z"/>
+			</f:profile>
+		</f:ShellBar>
+	</VBox>
+</core:FragmentDefinition>

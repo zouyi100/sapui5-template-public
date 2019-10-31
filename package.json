@@ -1,0 +1,17 @@
+{
+  "name": "appname",
+  "version": "1.0.0",
+  "description": "app description",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ui5 serve -o index.html",
+    "build": "ui5 build --all",
+    "deploy": "ui5 build --all && cd dist && cf push appname -b staticfile_buildpack -m 256M -k 128M"
+  },
+  "keywords": [
+    "keyword"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}

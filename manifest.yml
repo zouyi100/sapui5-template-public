@@ -1,0 +1,8 @@
+---
+applications:
+
+- name: template
+  memory: 1024M
+  path: dist/
+  buildpacks:
+    - staticfile_buildpack
